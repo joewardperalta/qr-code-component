@@ -14,12 +14,20 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--background-color);
+  padding: 24px;
+}
+
+.content-center {
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .qr-card {
   padding: 16px;
   background-color: var(--primary-color);
   width: fit-content;
+  height: fit-content;
   border-radius: 1rem;
   text-align: center;
 }
