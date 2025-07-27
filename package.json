@@ -1,0 +1,12 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the QR code component coding challenge](./preview.jpg)",
+  "license": "ISC",
+  "author": "Joeward Peralta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
