@@ -15,16 +15,15 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: var(--background-color);
   padding: 24px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 main {
   height: 100%;
-  display: flex;
-  align-items: center;
+}
+
+.qr-card-container {
+  padding: 6rem 0;
+  height: 100%;
 }
 
 .qr-card {
@@ -32,6 +31,7 @@ main {
   background-color: var(--primary-color);
   width: fit-content;
   height: fit-content;
+  max-width: 25rem;
   border-radius: 1rem;
   text-align: center;
 }
@@ -54,4 +54,18 @@ main {
 .qr-card .qr-card-body .qr-card-description {
   font-size: 1rem;
   color: var(--tertiary-color);
+}
+
+footer {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
 }
