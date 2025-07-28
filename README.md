@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![A QR code component card that is linked to the Frontend Mentor website.](./screenshot.png)
+![A QR code component card that is linked to the Frontend Mentor website.](./images/screenshot.png)
 
 ### Links
 
