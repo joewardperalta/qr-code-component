@@ -1,8 +1,15 @@
 :root {
+  /* Colors */
+
   --primary-color: white;
   --secondary-color: hsl(218, 44%, 22%);
   --tertiary-color: hsl(216, 15%, 48%);
   --background-color: hsl(212, 45%, 89%);
+
+  /* Breakpoints */
+
+  --mobile-breakpoint: 375px;
+  --desktop-breakpoint: 1440px;
 }
 
 /* --------------------
@@ -19,15 +26,10 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--background-color);
-  padding: 24px;
 }
 
 main {
   height: 100%;
-}
-
-footer {
-  text-align: center;
 }
 
 /* --------------------
@@ -46,6 +48,9 @@ footer {
 }
 
 .wrapper {
+  max-width: var(--desktop-breakpoint);
+  padding: 1rem;
+  margin: auto;
 }
 
 /* --------------------
@@ -88,4 +93,31 @@ footer {
 .qr-card .qr-card-body .qr-card-description {
   font-size: 1rem;
   color: var(--tertiary-color);
+}
+
+/* Attribution */
+
+.attribution {
+  text-align: center;
+}
+
+/* --------------------
+   Media Queries
+   --------------------
+*/
+
+/* Tablet screen */
+
+@media screen and (min-width: 750px) {
+  .wrapper {
+    padding: 0 4rem;
+  }
+}
+
+/* Desktop screen */
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    padding: 0 6rem;
+  }
 }
