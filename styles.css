@@ -5,6 +5,11 @@
   --background-color: hsl(212, 45%, 89%);
 }
 
+/* --------------------
+   Default styles
+   --------------------
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +25,35 @@ body {
 main {
   height: 100%;
 }
+
+footer {
+  text-align: center;
+}
+
+/* --------------------
+   Utilities
+   --------------------
+*/
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.wrapper {
+}
+
+/* --------------------
+   Components
+   --------------------
+*/
+
+/* QR Card */
 
 .qr-card-container {
   padding: 6rem 0;
@@ -54,18 +88,4 @@ main {
 .qr-card .qr-card-body .qr-card-description {
   font-size: 1rem;
   color: var(--tertiary-color);
-}
-
-footer {
-  text-align: center;
-}
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-col {
-  flex-direction: column;
 }
